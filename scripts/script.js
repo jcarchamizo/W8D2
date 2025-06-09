@@ -8,11 +8,11 @@ function showMessage(km) {
   switch(km) {
     case 100:
       text = "Let's get started!";
-      image = "https://via.placeholder.com/300x200?text=Salida";
+      image = "img/barcelona.jpg";
       break;
     case 50:
       text = "We're already halfway there!";
-      image = "https://via.placeholder.com/300x200?text=Mitad+del+camino";
+      image = "img/sitges.jpg";
       break;
     case 15:
       text = "We're almost there!";
