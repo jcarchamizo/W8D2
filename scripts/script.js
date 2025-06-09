@@ -7,19 +7,19 @@ function showMessage(km) {
 
   switch(km) {
     case 100:
-      text = "Arrancamos!";
+      text = "Let's get started!";
       image = "https://via.placeholder.com/300x200?text=Salida";
       break;
     case 50:
-      text = "¡Ya vamos por la mitad!";
+      text = "We're already halfway there!";
       image = "https://via.placeholder.com/300x200?text=Mitad+del+camino";
       break;
     case 15:
-      text = "¡Ya casi estamos!";
+      text = "We're almost there!";
       image = "https://via.placeholder.com/300x200?text=Cerca+del+destino";
       break;
     case 0:
-      text = "¡Llegamos! ¡Vivan las vacaciones!";
+      text = "We're here! Long live the holidays!";
       image = "https://via.placeholder.com/300x200?text=Tarragona+🌴";
       close.style.display = "block";
       break;
