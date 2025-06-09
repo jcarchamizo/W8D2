@@ -11,7 +11,7 @@
       margin-bottom: 20px;
     }
 
-    .botones {
+    .buttons {
       margin: 20px;
     }
 
@@ -22,17 +22,17 @@
       cursor: pointer;
     }
 
-    .mensaje {
+    .message {
       margin-top: 30px;
     }
 
-    .mensaje img {
+    .message img {
       max-width: 300px;
       margin-top: 10px;
       border-radius: 10px;
     }
 
-    #cerrar {
+    #close {
       position: absolute;
       top: 10px;
       right: 10px;
@@ -45,11 +45,11 @@
       display: none;
     }
 
-    .final {
+    .finish {
       display: none;
     }
 
-    .final img {
+    .finish img {
       width: 100vw;
       height: 100vh;
       object-fit: cover;

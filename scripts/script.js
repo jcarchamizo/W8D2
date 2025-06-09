@@ -1,9 +1,9 @@
-function mostrarMensaje(km) {
-  const mensaje = document.getElementById('mensaje');
-  const cerrar = document.getElementById('cerrar');
+function showMessage(km) {
+  const message = document.getElementById('message');
+  const close = document.getElementById('close');
 
-  let texto = "";
-  let imagen = "";
+  let text = "";
+  let image = "";
 
   switch(km) {
     case 100:
