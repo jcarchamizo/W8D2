@@ -16,11 +16,11 @@ function showMessage(km) {
       break;
     case 15:
       text = "We're almost there!";
-      image = "https://via.placeholder.com/300x200?text=Cerca+del+destino";
+      image = "img/altafulla.jpg";
       break;
     case 0:
       text = "We're here! Long live the holidays!";
-      image = "https://via.placeholder.com/300x200?text=Tarragona+🌴";
+      image = "img/tarragona.jpg";
       close.style.display = "block";
       break;
   }
@@ -33,7 +33,7 @@ function closeAll() {
   const finalDiv = document.getElementById('final');
   finalDiv.style.display = 'block';
   document.body.appendChild(finalDiv); // Add final image
-  document.body.style.backgroundImage = "url('https://via.placeholder.com/1920x1080?text=%C2%A1Vacaciones+en+Tarragona!')";
+  document.body.style.backgroundImage = "url('')";
   document.body.style.backgroundSize = "cover";
   document.body.style.backgroundPosition = "center";
 }
